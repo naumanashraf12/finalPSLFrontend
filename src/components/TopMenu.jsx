@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
-import { AppBar, Toolbar, Typography, Button } from "@material-ui/core";
+import { AppBar, Toolbar, Typography } from "@material-ui/core";
 import userService from "../services/UserService";
 const useStyles = makeStyles((theme) => ({
   link: {
@@ -23,12 +23,12 @@ const TopMenu = () => {
         </Typography>
         <Typography variant="h6">
           <Link to="/products" className={classes.link}>
-            Products
+            MATCHES
           </Link>
         </Typography>
         <Typography variant="h6">
           <Link to="/products/new" className={classes.link}>
-            New Product
+            ADD new Match
           </Link>
         </Typography>
         <Typography variant="h6">

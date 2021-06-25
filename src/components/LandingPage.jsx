@@ -2,7 +2,7 @@ import React from "react";
 const LandingPage = () => {
   return (
     <div>
-      <h1>Landing Page</h1>
+      <h1>Welcome to PLS Match Screen</h1>
     </div>
   );
 };

@@ -16,8 +16,8 @@ const useStyles = makeStyles((theme) => ({
 }));
 const Register = (props) => {
   const classes = useStyles();
-  const [email, setEmail] = React.useState("usman.akram@gmail.com");
-  const [password, setPassword] = React.useState("usman");
+  const [email, setEmail] = React.useState("naumanashraf30@gmail.com");
+  const [password, setPassword] = React.useState("noman");
   const [name, setName] = React.useState("usman");
   return (
     <div className={classes.container}>
@@ -62,9 +62,6 @@ const Register = (props) => {
               })
               .catch((err) => {
                 console.log(err);
-                toast.error(err.response.data, {
-                  position: toast.POSITION.TOP_LEFT,
-                });
               });
           }}
         >

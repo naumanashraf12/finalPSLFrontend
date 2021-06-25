@@ -49,7 +49,6 @@ const Products = (props) => {
           <AddIcon />
         </Fab>
       )}
-
       {products.length == 0 ? (
         <p>There are no products</p>
       ) : (
